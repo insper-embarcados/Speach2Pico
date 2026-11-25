@@ -20,3 +20,9 @@ env/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Local kiosk development
+web/node_modules/
+web/test-results/
+web/dist/
+.pytest_cache/

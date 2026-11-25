@@ -1,0 +1,128 @@
+[2026-11-19 18:14:56.301258] [0x00007f1594c79bc0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70
+[2026-11-19 18:14:56.301297] [0x00007f1594c79bc0] [info]    [BambuStudio.cpp:1876 run] Will start to read model file now, file count :1
+[2026-11-19 18:14:56.301334] [0x00007f1594c79bc0] [info]    [BambuStudio.cpp:1984 run] allow_multicolor_oneplate 1, allow_rotations 1 skip_modified_gcodes 0 avoid_extrusion_cali_region 0 loaded_filament_ids size 0, clone_objects size 0, skip_useless_pick 0, allow_newer_file 0, allow_mix_temp 0
+[2026-11-19 18:14:56.301358] [0x00007f1594c79bc0] [info]    [BambuStudio.cpp:2023 run] plate_to_slice=0, normative_check=1, use_first_fila_as_default=0
+[2026-11-19 18:14:56.301377] [0x00007f1594c79bc0] [info]    [BambuStudio.cpp:2042 run] read model file:/home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/raposa_3cores_Bambu.3mf
+[2026-11-19 18:14:56.301455] [0x00007f1594c79bc0] [info]    [Model.cpp:1163 get_backup_path] model 0x7fffec4a3580, id 3, backup_path empty, set to 18_14_56#2#3
+[2026-11-19 18:14:56.301481] [0x00007f1594c79bc0] [info]    [Model.cpp:1176 get_backup_path] create /3D/Objects in 18_14_56#2#3
+[2026-11-19 18:14:56.301539] [0x00007f1594c79bc0] [info]    [Model.cpp:1178 get_backup_path] create /Metadata in 18_14_56#2#3
+[2026-11-19 18:14:56.301566] [0x00007f1594c79bc0] [info]    [Model.cpp:1180 get_backup_path] create /lock.txt in 18_14_56#2#3
+[2026-11-19 18:14:56.301634] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2094 _load_model_from_file] import 3mf IMPORT_STAGE_OPEN, m_load_restore=0
+[2026-11-19 18:14:56.301684] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2130 _load_model_from_file] import 3mf IMPORT_STAGE_READ_FILES
+[2026-11-19 18:14:56.312560] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2287 _load_model_from_file] extract 1th file [Content_Types].xml, total=7
+[2026-11-19 18:14:56.312596] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2398 _load_model_from_file] [Content_Types].xml skipped, already parsed or a directory or not supported
+[2026-11-19 18:14:56.312610] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2287 _load_model_from_file] extract 2th file .rels, total=7
+[2026-11-19 18:14:56.312619] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2398 _load_model_from_file] _rels/.rels skipped, already parsed or a directory or not supported
+[2026-11-19 18:14:56.312630] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2287 _load_model_from_file] extract 3th file 3dmodel.model.rels, total=7
+[2026-11-19 18:14:56.312638] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2398 _load_model_from_file] 3D/_rels/3dmodel.model.rels skipped, already parsed or a directory or not supported
+[2026-11-19 18:14:56.312648] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2287 _load_model_from_file] extract 4th file 3dmodel.model, total=7
+[2026-11-19 18:14:56.312656] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2398 _load_model_from_file] 3D/3dmodel.model skipped, already parsed or a directory or not supported
+[2026-11-19 18:14:56.312666] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2287 _load_model_from_file] extract 5th file objetos.model, total=7
+[2026-11-19 18:14:56.312673] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2398 _load_model_from_file] 3D/Objects/objetos.model skipped, already parsed or a directory or not supported
+[2026-11-19 18:14:56.312684] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2287 _load_model_from_file] extract 6th file model_settings.config, total=7
+[2026-11-19 18:14:56.312804] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2287 _load_model_from_file] extract 7th file project_settings.config, total=7
+[2026-11-19 18:14:56.312884] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:3095 _extract_project_config_from_archive] extract  _temp_3.config from 3mf Metadata/project_settings.config, ret 1
+[2026-11-19 18:14:56.313031] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:3107 _extract_project_config_from_archive] load project config file successfully from _temp_3.config
+[2026-11-19 18:14:56.313049] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2456 _load_model_from_file] process group colors, size 0
+[2026-11-19 18:14:56.313071] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2478 _load_model_from_file] begin to assemble objects, size 3
+[2026-11-19 18:14:56.313093] [0x00007f1594c79bc0] [debug]   [bbs_3mf.cpp:5683 _generate_volumes_new] subobject_id 1, shared_mesh_id 1
+[2026-11-19 18:14:56.313787] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[64,72,6.2] faces=3188 verts=1588
+[2026-11-19 18:14:56.314463] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=36 odd=0 coplanar=0 coincident=0 sliver=0 boundary=2 graze=0 front=8 back=0
+[2026-11-19 18:14:56.314476] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.314506] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=3188 verts=1588
+[2026-11-19 18:14:56.314546] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=3188 verts=1588 parts=1 volume=4666.39 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.315903] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[64,72,6.2] faces=276 verts=140
+[2026-11-19 18:14:56.316093] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=0 sliver=0 boundary=6 graze=0 front=40 back=0
+[2026-11-19 18:14:56.316103] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.316109] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=276 verts=140
+[2026-11-19 18:14:56.316120] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=276 verts=140 parts=1 volume=18971.2 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.317391] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[64,72,6.2] faces=276 verts=140
+[2026-11-19 18:14:56.317594] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=0 sliver=0 boundary=6 graze=0 front=40 back=0
+[2026-11-19 18:14:56.317603] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.317610] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=276 verts=140
+[2026-11-19 18:14:56.317620] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=276 verts=140 parts=1 volume=18971.2 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.317676] [0x00007f1594c79bc0] [debug]   [bbs_3mf.cpp:5683 _generate_volumes_new] subobject_id 2, shared_mesh_id 2
+[2026-11-19 18:14:56.317825] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[34,28.4,39] faces=536 verts=272
+[2026-11-19 18:14:56.318096] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=0 sliver=0 boundary=8 graze=0 front=38 back=0
+[2026-11-19 18:14:56.318106] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.318112] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=536 verts=272
+[2026-11-19 18:14:56.318137] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=536 verts=272 parts=2 volume=12611.6 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.318424] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[34,28.4,39] faces=74 verts=39
+[2026-11-19 18:14:56.318506] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=0 sliver=0 boundary=6 graze=0 front=40 back=0
+[2026-11-19 18:14:56.318512] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.318518] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=74 verts=39
+[2026-11-19 18:14:56.318527] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=74 verts=39 parts=1 volume=19552.1 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.318825] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[34,28.4,39] faces=76 verts=40
+[2026-11-19 18:14:56.318927] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=0 sliver=0 boundary=6 graze=0 front=40 back=0
+[2026-11-19 18:14:56.318938] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.318945] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=76 verts=40
+[2026-11-19 18:14:56.318953] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=76 verts=40 parts=1 volume=19552.1 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.318975] [0x00007f1594c79bc0] [debug]   [bbs_3mf.cpp:5683 _generate_volumes_new] subobject_id 3, shared_mesh_id 3
+[2026-11-19 18:14:56.319002] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[40,16.7,26.8] faces=96 verts=60
+[2026-11-19 18:14:56.319046] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=36 odd=0 coplanar=0 coincident=0 sliver=0 boundary=1 graze=0 front=9 back=0
+[2026-11-19 18:14:56.319052] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.319058] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=96 verts=60
+[2026-11-19 18:14:56.319066] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=96 verts=60 parts=6 volume=1268.35 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.319189] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[40,16.7,26.8] faces=42 verts=23
+[2026-11-19 18:14:56.319242] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=0 sliver=0 boundary=5 graze=0 front=41 back=0
+[2026-11-19 18:14:56.319248] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.319254] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=42 verts=23
+[2026-11-19 18:14:56.319270] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=42 verts=23 parts=1 volume=5064.1 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.319391] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[40,16.7,26.8] faces=42 verts=23
+[2026-11-19 18:14:56.319442] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=0 sliver=0 boundary=5 graze=0 front=41 back=0
+[2026-11-19 18:14:56.319448] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.319454] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=42 verts=23
+[2026-11-19 18:14:56.319462] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=42 verts=23 parts=1 volume=5064.1 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.319478] [0x00007f1594c79bc0] [debug]   [bbs_3mf.cpp:5683 _generate_volumes_new] subobject_id 4, shared_mesh_id 4
+[2026-11-19 18:14:56.319506] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[23,12.9,13] faces=112 verts=62
+[2026-11-19 18:14:56.319542] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=43 odd=1 coplanar=0 coincident=0 sliver=0 boundary=1 graze=0 front=1 back=0
+[2026-11-19 18:14:56.319549] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.319555] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=112 verts=62
+[2026-11-19 18:14:56.319563] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=112 verts=62 parts=3 volume=91.6054 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.319662] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[23,12.9,13] faces=24 verts=14
+[2026-11-19 18:14:56.319719] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=2 coplanar=0 coincident=0 sliver=0 boundary=1 graze=0 front=43 back=0
+[2026-11-19 18:14:56.319725] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.319731] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=24 verts=14
+[2026-11-19 18:14:56.319738] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=24 verts=14 parts=1 volume=866.167 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.319834] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[23,12.9,13] faces=24 verts=14
+[2026-11-19 18:14:56.319897] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=2 coplanar=0 coincident=0 sliver=0 boundary=1 graze=0 front=43 back=0
+[2026-11-19 18:14:56.319905] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.319912] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=24 verts=14
+[2026-11-19 18:14:56.319927] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=24 verts=14 parts=1 volume=866.167 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.319944] [0x00007f1594c79bc0] [debug]   [bbs_3mf.cpp:5683 _generate_volumes_new] subobject_id 6, shared_mesh_id 6
+[2026-11-19 18:14:56.319955] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[8.6,6.6,3.7] faces=12 verts=8
+[2026-11-19 18:14:56.319986] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=6 sliver=0 boundary=0 graze=0 front=40 back=0
+[2026-11-19 18:14:56.319992] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.319998] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=12 verts=8
+[2026-11-19 18:14:56.320005] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=12 verts=8 parts=1 volume=210.012 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.320065] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[8.6,6.6,3.7] faces=12 verts=8
+[2026-11-19 18:14:56.320098] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=6 sliver=0 boundary=0 graze=0 front=40 back=0
+[2026-11-19 18:14:56.320104] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.320110] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=12 verts=8
+[2026-11-19 18:14:56.320117] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=12 verts=8 parts=1 volume=210.012 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.320174] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[8.6,6.6,3.7] faces=12 verts=8
+[2026-11-19 18:14:56.320203] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=6 sliver=0 boundary=0 graze=0 front=40 back=0
+[2026-11-19 18:14:56.320209] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.320215] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=12 verts=8
+[2026-11-19 18:14:56.320222] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=12 verts=8 parts=1 volume=210.012 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.320244] [0x00007f1594c79bc0] [debug]   [bbs_3mf.cpp:5683 _generate_volumes_new] subobject_id 5, shared_mesh_id 5
+[2026-11-19 18:14:56.320366] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[6,6,12] faces=512 verts=256
+[2026-11-19 18:14:56.320672] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=2 odd=6 coplanar=0 coincident=5 sliver=0 boundary=14 graze=0 front=19 back=0
+[2026-11-19 18:14:56.320681] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.320696] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=512 verts=256
+[2026-11-19 18:14:56.320708] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=512 verts=256 parts=1 volume=275.138 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.321560] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[6,6,12] faces=252 verts=128
+[2026-11-19 18:14:56.321782] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=12 coplanar=0 coincident=8 sliver=0 boundary=8 graze=0 front=18 back=0
+[2026-11-19 18:14:56.321794] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.321801] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=252 verts=128
+[2026-11-19 18:14:56.321811] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=252 verts=128 parts=1 volume=338.747 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.323112] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[6,6,12] faces=252 verts=128
+[2026-11-19 18:14:56.323343] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=12 coplanar=0 coincident=8 sliver=0 boundary=8 graze=0 front=18 back=0
+[2026-11-19 18:14:56.323361] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 18:14:56.323372] [0x00007f1594c79bc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=252 verts=128
+[2026-11-19 18:14:56.323387] [0x00007f1594c79bc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=252 verts=128 parts=1 volume=338.747 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 18:14:56.323429] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2708 _load_model_from_file] import 3mf IMPORT_STAGE_LOADING_PLATES, m_plater_data size 1, m_backup_path 18_14_56#2#3
+[2026-11-19 18:14:56.323446] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2761 _load_model_from_file] plate 1, thumbnail_file=, no_light_thumbnail_file=
+[2026-11-19 18:14:56.323457] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2765 _load_model_from_file] top_thumbnail_file=, pick_thumbnail_file=
+[2026-11-19 18:14:56.323467] [0x00007f1594c79bc0] [info]    [bbs_3mf.cpp:2823 _load_model_from_file] import 3mf IMPORT_STAGE_FINISH
+[2026-11-19 18:14:56.323647] [0x00007f1594c79bc0] [info]    [BambuStudio.cpp:2080 run] the first file is a 3mf, version 2.9.1.70, got plate count 1

@@ -1,0 +1,87 @@
+[2026-11-19 17:57:29.600206] [0x0000794a93e70bc0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70
+[2026-11-19 17:57:29.622193] [0x0000794a93e70bc0] [warning] [BambuStudio.cpp:2685 run] filament_diameter_map not passed, machine preset  has no nozzle diameter
+[2026-11-19 17:57:29.622261] [0x0000794a93e70bc0] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects
+[conjunto_PLA_para_fatiar.3mf]
+size_x = 40.000000
+size_y = 30.000000
+size_z = 39.000000
+min_x = -20.000000
+min_y = -20.000000
+min_z = 0.000000
+max_x = 20.000000
+max_y = 10.000000
+max_z = 39.000000
+number_of_facets = 744
+manifold = yes
+number_of_parts =  11
+volume = 13971.552734
+[conjunto_PLA_para_fatiar.3mf]
+size_x = 6.000000
+size_y = 6.000000
+size_z = 12.000000
+min_x = -3.000000
+min_y = -3.000000
+min_z = -6.000000
+max_x = 3.000000
+max_y = 3.000000
+max_z = 6.000000
+number_of_facets = 512
+manifold = yes
+number_of_parts =  1
+volume = 275.138123
+[conjunto_PLA_para_fatiar.3mf]
+size_x = 6.000000
+size_y = 6.000000
+size_z = 12.000000
+min_x = -3.000000
+min_y = -3.000000
+min_z = -6.000000
+max_x = 3.000000
+max_y = 3.000000
+max_z = 6.000000
+number_of_facets = 512
+manifold = yes
+number_of_parts =  1
+volume = 275.138123
+[conjunto_PLA_para_fatiar.3mf]
+size_x = 6.000000
+size_y = 6.000000
+size_z = 12.000000
+min_x = -3.000000
+min_y = -3.000000
+min_z = -6.000000
+max_x = 3.000000
+max_y = 3.000000
+max_z = 6.000000
+number_of_facets = 512
+manifold = yes
+number_of_parts =  1
+volume = 275.138123
+[conjunto_PLA_para_fatiar.3mf]
+size_x = 64.000000
+size_y = 72.000000
+size_z = 6.200000
+min_x = -32.000000
+min_y = -36.000000
+min_z = -3.100000
+max_x = 32.000000
+max_y = 36.000000
+max_z = 3.100000
+number_of_facets = 3188
+manifold = yes
+number_of_parts =  1
+volume = 4666.388672
+[conjunto_PLA_para_fatiar.3mf]
+size_x = 6.000000
+size_y = 6.000000
+size_z = 12.000000
+min_x = -3.000000
+min_y = -3.000000
+min_z = -6.000000
+max_x = 3.000000
+max_y = 3.000000
+max_z = 6.000000
+number_of_facets = 512
+manifold = yes
+number_of_parts =  1
+volume = 275.138123

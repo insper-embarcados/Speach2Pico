@@ -1,0 +1,62 @@
+{
+  "estado": "preparado_nao_fatiado",
+  "validacao": "sintaxe Python, JSON dos perfis, integridade ZIP/XML; sem executar Bambu Studio",
+  "perfis": [
+    {
+      "perfil": "P2S_04",
+      "impressora": "Bambu Lab P2S",
+      "bico": [
+        "0.4"
+      ],
+      "camada": "0.16",
+      "cores": [
+        "#CA1536",
+        "#F4EFE5",
+        "#24252C"
+      ]
+    },
+    {
+      "perfil": "P2S_06",
+      "impressora": "Bambu Lab P2S",
+      "bico": [
+        "0.6"
+      ],
+      "camada": "0.18",
+      "cores": [
+        "#CA1536",
+        "#F4EFE5",
+        "#24252C"
+      ]
+    },
+    {
+      "perfil": "X1C_04",
+      "impressora": "Bambu Lab X1 Carbon",
+      "bico": [
+        "0.4"
+      ],
+      "camada": "0.16",
+      "cores": [
+        "#CA1536",
+        "#F4EFE5",
+        "#24252C"
+      ]
+    },
+    {
+      "perfil": "X1C_06",
+      "impressora": "Bambu Lab X1 Carbon",
+      "bico": [
+        "0.6"
+      ],
+      "camada": "0.18",
+      "cores": [
+        "#CA1536",
+        "#F4EFE5",
+        "#24252C"
+      ]
+    }
+  ],
+  "pendencias": [
+    "executar fatiador apos nova autorizacao",
+    "validar torre, cores, suportes, detalhes, metadados e trajetorias nas quatro variantes"
+  ]
+}

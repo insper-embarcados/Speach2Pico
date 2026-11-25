@@ -1,0 +1,56 @@
+{
+  "revision": "v2-2026-11-19",
+  "units": "mm",
+  "coordinate_system": "X lateral, Y para tras, Z para cima; origem entre os furos dianteiros, na face superior da PCB",
+  "source_dimensions": {
+    "board_pdf": "../../../docs/zumo-2040-main-board-dimensions.pdf",
+    "robot_pdf": "../../../docs/zumo-2040-robot-dimensions.pdf",
+    "front_hole_spacing": 50.0,
+    "rear_hole_spacing": 55.0,
+    "row_spacing": 63.0,
+    "pcb_front_y": -6.3,
+    "pcb_rear_y": 76.5,
+    "oled_envelope": [-17.7, 17.7, 20.0, 53.5, 9.8],
+    "derivation": "Frente: 66-2*8=50. Tras: 66-2*5.5=55. Fileiras: 82.8-6.3-13.5=63. OLED: Y=26.3-6.3=20, comprimento33.5, largura35.4."
+  },
+  "mount": {
+    "hole_diameter": 2.6,
+    "pad_diameter": 9.0,
+    "rail_width": 5.5,
+    "plate_thickness": 3.2,
+    "spacer_height": 12.0,
+    "spacer_diameter": 6.0,
+    "rear_shim_height_for_assembly_preview": 0.0,
+    "front_holes": [[-25.0, 0.0], [25.0, 0.0]],
+    "rear_holes": [[-27.5, 63.0], [27.5, 63.0]],
+    "blade_note": "Se houver abas da lamina sob os apoios dianteiros, acrescentar calcos de mesma espessura nos traseiros. A espessura da lamina nao consta nos PDFs. Previa mostra plano de apoio nivelado, sem compensacao presumida."
+  },
+  "fox": {
+    "center_y": 8.0,
+    "trimmed_height": 39.0,
+    "peg_width": 8.0,
+    "peg_depth": 6.0,
+    "peg_height": 3.0,
+    "socket_xy_clearance_per_side": 0.2,
+    "socket_extra_depth": 0.4
+  },
+  "hardware": {
+    "thread": "#2-56 (original Pololu; nao e M2)",
+    "original_front_length": 6.35,
+    "original_rear_length": 4.7625,
+    "length_rule": "L_novo = L_original + 12 + 3.2 + espessura_da_arruela_superior + calco_adicionado_naquele_ponto. Conferir protrusao na porca e folga das pilhas.",
+    "source": "https://www.pololu.com/docs/0J87/3"
+  },
+  "pla_starting_settings": {
+    "nozzle_mm": 0.4,
+    "base_layer_mm": 0.2,
+    "head_layer_mm": 0.16,
+    "walls": 4,
+    "top_bottom_layers_base": 5,
+    "base_infill_percent": 30,
+    "head_infill_percent": 15,
+    "spacer_infill_percent": 100,
+    "temperature": "Usar o perfil PLA do fabricante do filamento e da impressora.",
+    "support": "Base e espacadores deitados/verticais como exportados; cabeca em pe, avaliar suportes sob focinho/bochechas; bloquear suportes no encaixe inferior e verificar ponte de 8.4 mm."
+  }
+}

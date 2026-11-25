@@ -1,0 +1,120 @@
+RAPOSA ZUMO 2040 V2 - QUATRO PARAFUSOS - PLA
+19/11/2026
+
+ABRIR PRIMEIRO
+conjunto_PLA_para_fatiar.3mf: base, cabeça e QUATRO espaçadores já separados
+na mesa, todos em Z=0. É geometria, sem perfil de impressora e sem G-code.
+As três cores da cabeça são volumes de UMA mesma peça, não peças para
+imprimir separadas. Para PLA de uma cor, atribua o mesmo filamento a tudo.
+
+Ou abra os STL individuais: base_4_parafusos.stl (1x),
+cabeca_raposa_encaixe.stl (1x) e espacador_12mm_imprimir_4.stl (4x).
+
+O QUE MUDOU
+- Base aberta de 64 x 72 mm, lâmina de 3,2 mm e quatro furos de 2,6 mm.
+- Quatro espaçadores de 12 mm, diâmetro externo 6 mm.
+- Cabeça de 40 x 30 x 39 mm; pontas superiores truncadas.
+- Encaixe orientador: pino 8 x 6 x 3 mm na base e cavidade de
+  8,4 x 6,4 x 3,4 mm na cabeça. Folga de 0,2 mm por lado.
+- A cabeça deve ser COLADA à base depois de conferir o encaixe. O pino
+  orienta e recebe esforço lateral, mas não é uma trava de retenção.
+- Altura montada: 54,2 mm acima do plano de apoio dos espaçadores,
+  acrescida de eventual calço para nivelamento da lâmina.
+
+MEDIDAS DOCUMENTAIS
+Os quatro furos usados são os EXTERNOS que prendem a placa ao chassi,
+não os parafusos do OLED. Frente é o lado da lâmina/sensores; atrás é USB.
+Origem: centro entre furos dianteiros, X lateral, Y para trás, Z para cima.
+Frente: (-25;0) e (+25;0). Trás: (-27,5;63) e (+27,5;63), em mm.
+Distâncias entre centros: 50 mm na frente, 55 mm atrás, 63 mm longitudinal.
+Cálculos da folha 3: 66-2x8=50; 66-2x5,5=55; 82,8-6,3-13,5=63.
+
+A folha 4 mostra OLED de 35,4 x 33,5 mm, início a 26,3 mm da frente da
+PCB (Y=20 nesta origem). A cabeça termina em Y=18: vão nominal de 2 mm.
+A estrutura não cruza o envelope nem a projeção vertical do OLED no modelo.
+Abertura traseira permite acesso aos botões e USB; desvio na longarina direita
+contorna a região do interruptor. Acesso com dedos/cabos deve ser provado.
+A placa mostrada na prévia é simplificada; não representa cada componente.
+
+FERRAGENS
+4 parafusos de máquina #2-56 mais longos, mantendo as porcas originais.
+4 arruelas pequenas sob as cabeças dos parafusos, se compatíveis.
+O manual original especifica #2-56 de 1/4" (6,35 mm) na frente e 3/16"
+(4,7625 mm) atrás. Embora a PCB aceite M2, M2 NÃO rosqueia nas porcas #2-56.
+
+COMPRIMENTO SOB A CABEÇA:
+L_novo = L_original + 15,2 mm + arruela superior + calço naquele ponto.
+Sem arruela/calço: referência 21,55 mm na frente e 19,96 mm atrás.
+Esses valores são uma conta da pilha de peças, não um tamanho comercial
+validado. Se comprar o tamanho seguinte, conferir/ajustar para não aumentar
+a protrusão na área das pilhas. A rosca deve atravessar a porca por completo;
+não aceitar menos engate que o original. Conferir a montagem sem pilhas.
+
+LÂMINA FRONTAL E NIVELAMENTO
+No robô original, as abas da lâmina ficam sobre a PCB sob os parafusos da
+frente. Preservar as abas e assentar os espaçadores dianteiros sobre elas.
+Para nivelar a base, colocar sob os DOIS espaçadores traseiros calços com a
+MESMA espessura efetiva das abas dianteiras. Medir essa espessura: ela não
+está especificada nos PDFs fornecidos. Foram incluídos calços de 0,2 a 1,2 mm;
+imprimir dois iguais da medida necessária, ou combinar medidas iguais dos
+dois lados. Se não houver lâmina/abas, não acrescentar calços traseiros.
+Não apertar para entortar a base ou a placa. Confirmar que os pés de 6 mm
+assentam somente na região livre dos furos, sem tocar componentes próximos.
+
+PLA - PARÂMETROS INICIAIS, NÃO FATIADOS
+Bico considerado: 0,4 mm. Manter ESCALA 100%, milímetros.
+Base: deitada como exportada, camada 0,20 mm, 4 paredes, 5 camadas no topo
+  e fundo, 30% de preenchimento. Não precisa de suportes na geometria.
+Espaçadores: em pé como exportados, camada 0,20 mm, 4 paredes, 100% de
+  preenchimento. Pode usar brim de 3 mm se a adesão for insuficiente.
+Cabeça: em pé, camada 0,16 mm, 4 paredes, 15% de preenchimento. Avaliar
+  suportes orgânicos sob focinho e bochechas. Bloquear suportes dentro do
+  encaixe inferior e verificar a ponte de 8,4 mm na prévia de camadas.
+Calços: camada 0,20 mm, 100% sólido, sem brim que altere o assentamento.
+Temperaturas e ventilação: perfil PLA da impressora/filamento utilizado.
+
+TESTAR ANTES DA IMPRESSÃO COMPLETA
+1. teste_furos_encaixe.stl tem duas peças. A maior traz furos de 2,4 / 2,6 /
+   2,8 mm da esquerda para a direita, com a cavidade à direita deles; a menor
+   traz o pino. Verificar passagem livre do parafuso no furo nominal 2,6 mm
+   e encaixe do pino sem pressão. Ajustar a folga no fonte se necessário.
+2. gabarito_furacao_08mm.stl é uma cópia fina da base para conferir a posição
+   dos quatro furos SOBRE os espaçadores. Não apoiar sobre os componentes;
+   não usar esse gabarito de 0,8 mm como suporte estrutural.
+3. Conferir no robô de verdade: display, botões, USB, interruptor, fios de
+   expansão, sensores e LEDs. A altura e as folgas são nominais. Acessórios
+   adicionados ao Zumo não estão representados nos desenhos.
+
+MONTAGEM
+1. Desligar e retirar pilhas/USB. Trocar os parafusos um de cada vez,
+   mantendo as porcas e a montagem da placa/lâmina no lugar.
+2. Colocar espaçadores e calços de nivelamento. Apoiar a base com o pino
+   voltado para cima e a plataforma da raposa voltada para a lâmina.
+3. Montar parafusos/arruelas. Apertar levemente, em cruz, sem deformar PLA
+   nem PCB. Conferir ponta de cada parafuso e passagem/assentamento das pilhas.
+4. Testar a cabeça no pino. Retirar e colar cabeça e base FORA do robô,
+   usando adesivo adequado a PLA. Não deixar adesivo escorrer na placa.
+5. Reinstalar, conferir fixação e testar comandos/sensores a baixa velocidade.
+
+VALIDAÇÃO E LIMITES
+STL reabertos: fechados, orientação consistente, um sólido por peça;
+o cupom tem duas peças intencionais. Furos e paredes anulares conferidos.
+3MF reaberto; todos os volumes fechados. Envelopes/projeção do OLED sem
+interseção. Não houve fatiamento, impressão física nem prova no robô.
+Não foi feito cálculo estrutural nem ensaio de impacto. É um suporte de
+mascote; conferir a estabilidade durante os movimentos antes de uso normal.
+
+FONTES
+- docs/zumo-2040-main-board-dimensions.pdf, Pololu item 5014, 22/11/2023:
+  folhas 2 (altura), 3 (furação) e 4 (OLED e comandos).
+- docs/zumo-2040-robot-dimensions.pdf, 21/11/2023: disposição no robô.
+- Manual oficial, seção 3 (consultado 19/11/2026):
+  https://www.pololu.com/docs/0J87/3
+  Passos 10, 20-21: parafusos externos #2-56 e abas da lâmina sobre a PCB.
+
+EDITAR
+raposa_zumo_v2.scad permite escolher base, cabeca, espacador, calco ou montagem.
+Não escalar o conjunto no fatiador: isso altera a distância dos parafusos.
+A fonte OpenSCAD não foi reexportada por um executável OpenSCAD nesta sessão.
+Os STL e o 3MF entregues foram gerados e verificados por gerar_v2.py;
+parametros.json registra dimensões e hipóteses. A revisão anterior foi mantida.

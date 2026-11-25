@@ -1,0 +1,45 @@
+RAPOSA ZUMO V2 — PREPARAÇÃO PARA PLA EM TRÊS CORES
+
+ESTADO: FATIAMENTO PENDENTE. NÃO HÁ ARQUIVOS PRONTOS PARA IMPRIMIR.
+A execução do Bambu Studio para fatiar foi recusada na autorização do
+ambiente. O comando não foi repetido após a recusa.
+
+Perfis preparados com base no Bambu Studio instalado (02.09.01.70):
+  P2S_04: Bambu Lab P2S, bico 0,4 mm, camada 0,16 mm.
+  P2S_06: Bambu Lab P2S, bico 0,6 mm, camada 0,18 mm.
+  X1C_04: Bambu Lab X1 Carbon, bico 0,4 mm, camada 0,16 mm.
+  X1C_06: Bambu Lab X1 Carbon, bico 0,6 mm, camada 0,18 mm.
+
+Material: PLA genérico, três entradas de filamento, troca pelo AMS.
+Mesa: PEI texturizada.
+Filamento 1: vermelho — corpo da cabeça e base de montagem.
+Filamento 2: branco — detalhes claros da cabeça.
+Filamento 3: preto — olhos, nariz e quatro espaçadores.
+Os slots físicos do AMS devem ser conferidos ao enviar a impressão.
+
+Geometria preservada da revisão v2_parafusos: cabeça, base com quatro
+pontos de fixação e quatro espaçadores. Calços de ajuste são separados
+e devem ser escolhidos conforme a medida das abas da lâmina do Zumo.
+
+Configuração proposta: quatro paredes, cabeça com 15% de preenchimento,
+base com 30%, espaçadores com 100%, suporte árvore apenas na cabeça,
+torre de purga e volumes de limpeza para as três cores.
+
+A importação inicial no Bambu foi concluída, mas o programa desativou
+a torre ao receber três presets de mesmo nome. O script fatiar.py foi
+ajustado para passar as cores explicitamente. Essa alteração ainda NÃO
+foi executada nem validada no fatiador. A exportação anterior fica em
+preparacao/diagnosticos e não deve ser usada como arquivo final.
+
+Referência para o ajuste da CLI:
+https://github.com/bambulab/BambuStudio/blob/master/src/BambuStudio.cpp
+Lógica disable_wipe_tower_after_mapping: cores explícitas distintas
+revertem a desativação causada por presets de mesmo nome.
+
+Após autorização para executar o fatiador, o comando preparado é:
+python3 modelos/raposa_zumo/fatiados_3cores/fatiar.py slice P2S_04 P2S_06 X1C_04 X1C_06
+
+Ainda é necessário: executar as quatro variantes; confirmar três cores,
+torre e suportes no G-code; conferir limites da mesa e detalhes com bico
+0,6 mm; verificar metadados de impressora/bico e exportação de cada 3MF.
+Tempo e consumo de material só podem ser informados após o fatiamento.

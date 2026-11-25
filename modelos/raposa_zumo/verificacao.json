@@ -1,0 +1,41 @@
+{
+  "dimensions_mm": [
+    40.0,
+    30.0,
+    40.0
+  ],
+  "bounds_mm": [
+    [
+      -20.0,
+      -20.0,
+      0.0
+    ],
+    [
+      20.0,
+      10.0,
+      40.0
+    ]
+  ],
+  "watertight": true,
+  "winding_consistent": true,
+  "connected_components": 1,
+  "volume_mm3": 14156.523517746988,
+  "triangles": 574,
+  "base_mm": [
+    20.0,
+    14.0
+  ],
+  "color_volume_sum_mm3": 14156.52354419731,
+  "parts_watertight": {
+    "vermelho": true,
+    "branco": true,
+    "preto": true
+  },
+  "three_mf_reopened_parts_watertight": {
+    "vermelho": true,
+    "branco": true,
+    "preto": true
+  },
+  "printed_or_sliced": false,
+  "mount_fit_verified": false
+}

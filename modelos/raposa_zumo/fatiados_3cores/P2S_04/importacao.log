@@ -1,0 +1,293 @@
+[2026-11-19 19:05:56.146372] [0x0000767be4dfbbc0] [warning] [BambuStudio.cpp:1845 run] cli mode, Current BambuStudio Version 02.09.01.70
+[2026-11-19 19:05:56.146408] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:1876 run] Will start to read model file now, file count :1
+[2026-11-19 19:05:56.146435] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:1984 run] allow_multicolor_oneplate 1, allow_rotations 1 skip_modified_gcodes 0 avoid_extrusion_cali_region 0 loaded_filament_ids size 0, clone_objects size 0, skip_useless_pick 0, allow_newer_file 0, allow_mix_temp 0
+[2026-11-19 19:05:56.146450] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2023 run] plate_to_slice=0, normative_check=1, use_first_fila_as_default=0
+[2026-11-19 19:05:56.146465] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2042 run] read model file:/home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/raposa_3cores_Bambu.3mf
+[2026-11-19 19:05:56.146530] [0x0000767be4dfbbc0] [info]    [Model.cpp:1163 get_backup_path] model 0x7ffcb5df1570, id 3, backup_path empty, set to 19_05_56#2#3
+[2026-11-19 19:05:56.146555] [0x0000767be4dfbbc0] [info]    [Model.cpp:1176 get_backup_path] create /3D/Objects in 19_05_56#2#3
+[2026-11-19 19:05:56.146607] [0x0000767be4dfbbc0] [info]    [Model.cpp:1178 get_backup_path] create /Metadata in 19_05_56#2#3
+[2026-11-19 19:05:56.146630] [0x0000767be4dfbbc0] [info]    [Model.cpp:1180 get_backup_path] create /lock.txt in 19_05_56#2#3
+[2026-11-19 19:05:56.146698] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2094 _load_model_from_file] import 3mf IMPORT_STAGE_OPEN, m_load_restore=0
+[2026-11-19 19:05:56.146744] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2130 _load_model_from_file] import 3mf IMPORT_STAGE_READ_FILES
+[2026-11-19 19:05:56.156462] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2287 _load_model_from_file] extract 1th file [Content_Types].xml, total=7
+[2026-11-19 19:05:56.156492] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2398 _load_model_from_file] [Content_Types].xml skipped, already parsed or a directory or not supported
+[2026-11-19 19:05:56.156507] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2287 _load_model_from_file] extract 2th file .rels, total=7
+[2026-11-19 19:05:56.156517] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2398 _load_model_from_file] _rels/.rels skipped, already parsed or a directory or not supported
+[2026-11-19 19:05:56.156529] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2287 _load_model_from_file] extract 3th file 3dmodel.model.rels, total=7
+[2026-11-19 19:05:56.156539] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2398 _load_model_from_file] 3D/_rels/3dmodel.model.rels skipped, already parsed or a directory or not supported
+[2026-11-19 19:05:56.156556] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2287 _load_model_from_file] extract 4th file 3dmodel.model, total=7
+[2026-11-19 19:05:56.156572] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2398 _load_model_from_file] 3D/3dmodel.model skipped, already parsed or a directory or not supported
+[2026-11-19 19:05:56.156585] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2287 _load_model_from_file] extract 5th file objetos.model, total=7
+[2026-11-19 19:05:56.156601] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2398 _load_model_from_file] 3D/Objects/objetos.model skipped, already parsed or a directory or not supported
+[2026-11-19 19:05:56.156622] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2287 _load_model_from_file] extract 6th file model_settings.config, total=7
+[2026-11-19 19:05:56.156863] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2287 _load_model_from_file] extract 7th file project_settings.config, total=7
+[2026-11-19 19:05:56.157196] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:3095 _extract_project_config_from_archive] extract  _temp_3.config from 3mf Metadata/project_settings.config, ret 1
+[2026-11-19 19:05:56.160455] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:3107 _extract_project_config_from_archive] load project config file successfully from _temp_3.config
+[2026-11-19 19:05:56.160499] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2456 _load_model_from_file] process group colors, size 0
+[2026-11-19 19:05:56.160530] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2478 _load_model_from_file] begin to assemble objects, size 3
+[2026-11-19 19:05:56.161549] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[64,72,6.2] faces=3188 verts=1588
+[2026-11-19 19:05:56.162368] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=36 odd=0 coplanar=0 coincident=0 sliver=0 boundary=2 graze=0 front=8 back=0
+[2026-11-19 19:05:56.162384] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.162422] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=3188 verts=1588
+[2026-11-19 19:05:56.162473] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=3188 verts=1588 parts=1 volume=4666.39 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.163928] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[64,72,6.2] faces=276 verts=140
+[2026-11-19 19:05:56.164111] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=0 sliver=0 boundary=6 graze=0 front=40 back=0
+[2026-11-19 19:05:56.164123] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.164131] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=276 verts=140
+[2026-11-19 19:05:56.164143] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=276 verts=140 parts=1 volume=18971.2 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.165554] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[64,72,6.2] faces=276 verts=140
+[2026-11-19 19:05:56.165770] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=0 sliver=0 boundary=6 graze=0 front=40 back=0
+[2026-11-19 19:05:56.165784] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.165795] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=276 verts=140
+[2026-11-19 19:05:56.165811] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=276 verts=140 parts=1 volume=18971.2 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.166015] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[34,28.4,39] faces=536 verts=272
+[2026-11-19 19:05:56.166292] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=0 sliver=0 boundary=8 graze=0 front=38 back=0
+[2026-11-19 19:05:56.166303] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.166311] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=536 verts=272
+[2026-11-19 19:05:56.166327] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=536 verts=272 parts=2 volume=12611.6 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.166624] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[34,28.4,39] faces=74 verts=39
+[2026-11-19 19:05:56.166710] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=0 sliver=0 boundary=6 graze=0 front=40 back=0
+[2026-11-19 19:05:56.166719] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.166727] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=74 verts=39
+[2026-11-19 19:05:56.166737] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=74 verts=39 parts=1 volume=19552.1 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.167048] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[34,28.4,39] faces=76 verts=40
+[2026-11-19 19:05:56.167137] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=0 sliver=0 boundary=6 graze=0 front=40 back=0
+[2026-11-19 19:05:56.167146] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.167154] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=76 verts=40
+[2026-11-19 19:05:56.167164] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=76 verts=40 parts=1 volume=19552.1 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.167202] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[40,16.7,26.8] faces=96 verts=60
+[2026-11-19 19:05:56.167248] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=36 odd=0 coplanar=0 coincident=0 sliver=0 boundary=1 graze=0 front=9 back=0
+[2026-11-19 19:05:56.167256] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.167264] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=96 verts=60
+[2026-11-19 19:05:56.167274] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=96 verts=60 parts=6 volume=1268.35 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.167398] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[40,16.7,26.8] faces=42 verts=23
+[2026-11-19 19:05:56.167453] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=0 sliver=0 boundary=5 graze=0 front=41 back=0
+[2026-11-19 19:05:56.167461] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.167468] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=42 verts=23
+[2026-11-19 19:05:56.167478] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=42 verts=23 parts=1 volume=5064.1 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.167599] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[40,16.7,26.8] faces=42 verts=23
+[2026-11-19 19:05:56.167660] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=0 sliver=0 boundary=5 graze=0 front=41 back=0
+[2026-11-19 19:05:56.167669] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.167676] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=42 verts=23
+[2026-11-19 19:05:56.167686] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=42 verts=23 parts=1 volume=5064.1 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.167723] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[23,12.9,13] faces=112 verts=62
+[2026-11-19 19:05:56.167761] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=43 odd=1 coplanar=0 coincident=0 sliver=0 boundary=1 graze=0 front=1 back=0
+[2026-11-19 19:05:56.167770] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.167777] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=112 verts=62
+[2026-11-19 19:05:56.167787] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=112 verts=62 parts=3 volume=91.6054 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.167897] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[23,12.9,13] faces=24 verts=14
+[2026-11-19 19:05:56.167956] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=2 coplanar=0 coincident=0 sliver=0 boundary=1 graze=0 front=43 back=0
+[2026-11-19 19:05:56.167965] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.167972] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=24 verts=14
+[2026-11-19 19:05:56.167982] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=24 verts=14 parts=1 volume=866.167 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.168078] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[23,12.9,13] faces=24 verts=14
+[2026-11-19 19:05:56.168133] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=2 coplanar=0 coincident=0 sliver=0 boundary=1 graze=0 front=43 back=0
+[2026-11-19 19:05:56.168141] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.168149] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=24 verts=14
+[2026-11-19 19:05:56.168158] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=24 verts=14 parts=1 volume=866.167 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.168178] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[8.6,6.6,3.7] faces=12 verts=8
+[2026-11-19 19:05:56.168218] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=6 sliver=0 boundary=0 graze=0 front=40 back=0
+[2026-11-19 19:05:56.168227] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.168235] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=12 verts=8
+[2026-11-19 19:05:56.168244] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=12 verts=8 parts=1 volume=210.012 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.168305] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[8.6,6.6,3.7] faces=12 verts=8
+[2026-11-19 19:05:56.168340] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=6 sliver=0 boundary=0 graze=0 front=40 back=0
+[2026-11-19 19:05:56.168348] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.168356] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=12 verts=8
+[2026-11-19 19:05:56.168365] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=12 verts=8 parts=1 volume=210.012 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.168421] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[8.6,6.6,3.7] faces=12 verts=8
+[2026-11-19 19:05:56.168453] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=0 coplanar=0 coincident=6 sliver=0 boundary=0 graze=0 front=40 back=0
+[2026-11-19 19:05:56.168461] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.168469] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=12 verts=8
+[2026-11-19 19:05:56.168477] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=12 verts=8 parts=1 volume=210.012 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.168590] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[6,6,12] faces=512 verts=256
+[2026-11-19 19:05:56.168934] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=2 odd=6 coplanar=0 coincident=5 sliver=0 boundary=14 graze=0 front=19 back=0
+[2026-11-19 19:05:56.168951] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.168966] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=512 verts=256
+[2026-11-19 19:05:56.168990] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=512 verts=256 parts=1 volume=275.138 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.169939] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[6,6,12] faces=252 verts=128
+[2026-11-19 19:05:56.170170] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=12 coplanar=0 coincident=8 sliver=0 boundary=8 graze=0 front=18 back=0
+[2026-11-19 19:05:56.170193] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.170209] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=252 verts=128
+[2026-11-19 19:05:56.170230] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=252 verts=128 parts=1 volume=338.747 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.171090] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:121 detect_visible_backfaces] reversed-faces: layer3 aabb extent=[6,6,12] faces=252 verts=128
+[2026-11-19 19:05:56.171315] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:251 detect_visible_backfaces] reversed-faces: layer3 summary rays=46 miss=0 odd=12 coplanar=0 coincident=8 sliver=0 boundary=8 graze=0 front=18 back=0
+[2026-11-19 19:05:56.171586] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:265 detect_visible_backfaces] reversed-faces: layer3 no visible backface
+[2026-11-19 19:05:56.171605] [0x0000767be4dfbbc0] [info]    [MeshDiagnostics.cpp:273 log_reversed_face_decision] reversed-faces: detect has_reversed_faces=0 open_edges=0 nm_edges=0 same_dir=0 faces=252 verts=128
+[2026-11-19 19:05:56.171625] [0x0000767be4dfbbc0] [info]    [TriangleMesh.cpp:60 fill_initial_stats] reversed-faces: mesh-stats faces=252 verts=128 parts=1 volume=338.747 open_edges=0 nm_edges=0 nm_verts=0 has_reversed_faces=0
+[2026-11-19 19:05:56.171667] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2708 _load_model_from_file] import 3mf IMPORT_STAGE_LOADING_PLATES, m_plater_data size 1, m_backup_path 19_05_56#2#3
+[2026-11-19 19:05:56.171688] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2761 _load_model_from_file] plate 1, thumbnail_file=, no_light_thumbnail_file=
+[2026-11-19 19:05:56.171706] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2765 _load_model_from_file] top_thumbnail_file=, pick_thumbnail_file=
+[2026-11-19 19:05:56.171722] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:2823 _load_model_from_file] import 3mf IMPORT_STAGE_FINISH
+[2026-11-19 19:05:56.171910] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2080 run] the first file is a 3mf, version 2.9.1.70, got plate count 1
+[2026-11-19 19:05:56.171944] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2177 run] current_printer_name Bambu Lab P2S 0.4 nozzle, current_process_name Raposa Zumo P2S_04 PLA 3 cores
+[2026-11-19 19:05:56.171963] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2184 run] inherits of printer is null, should be system preset
+[2026-11-19 19:05:56.171980] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2193 run] inherits of process is null, should be system preset
+[2026-11-19 19:05:56.172219] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2278 run] old printable size from 3mf: {256, 256, 256}, old shared center {0, 0}, has_old_shared_center 0
+[2026-11-19 19:05:56.172243] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2280 run] old extruder_clearance_height_to_rod 32.5, extruder_clearance_height_to_lid 141.5, extruder_clearance_max_radius 72 extruder_clearance_dist_to_rod 36.5}
+[2026-11-19 19:05:56.172273] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2535 run] before load settings, file count=2
+[2026-11-19 19:05:56.172297] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2475 operator()] load setting file /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/perfis/P2S_04_machine.json, with rule 1
+[2026-11-19 19:05:56.173222] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2524 operator()] no substitutions performed from file /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/perfis/P2S_04_machine.json
+[2026-11-19 19:05:56.173333] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2585 run] loaded machine config /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/perfis/P2S_04_machine.json, type Bambu Lab P2S 0.4 nozzle, name system, inherits Bambu Lab P2S 0.4 nozzle, printer_model_id 
+[2026-11-19 19:05:56.173362] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2475 operator()] load setting file /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/perfis/P2S_04_process.json, with rule 1
+[2026-11-19 19:05:56.174006] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2524 operator()] no substitutions performed from file /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/perfis/P2S_04_process.json
+[2026-11-19 19:05:56.174030] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2612 run] loaded process config /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/perfis/P2S_04_process.json, type 0.16mm High Quality @BBL P2S, name system, inherits 0.16mm High Quality @BBL P2S
+[2026-11-19 19:05:56.174060] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2689 run] filament_diameter_map not passed, machine preset Bambu Lab P2S 0.4 nozzle nozzle diameter 0.4
+[2026-11-19 19:05:56.174084] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2475 operator()] load setting file /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/perfis/P2S_04_PLA_1.json, with rule 1
+[2026-11-19 19:05:56.174627] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2524 operator()] no substitutions performed from file /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/perfis/P2S_04_PLA_1.json
+[2026-11-19 19:05:56.174652] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2815 run] loaded filament 1 from file /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/perfis/P2S_04_PLA_1.json, type system, name Generic PLA @BBL P2S, inherits 
+[2026-11-19 19:05:56.174673] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2475 operator()] load setting file /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/perfis/P2S_04_PLA_2.json, with rule 1
+[2026-11-19 19:05:56.175280] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2524 operator()] no substitutions performed from file /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/perfis/P2S_04_PLA_2.json
+[2026-11-19 19:05:56.175306] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2815 run] loaded filament 2 from file /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/perfis/P2S_04_PLA_2.json, type system, name Generic PLA @BBL P2S, inherits 
+[2026-11-19 19:05:56.175328] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2475 operator()] load setting file /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/perfis/P2S_04_PLA_3.json, with rule 1
+[2026-11-19 19:05:56.175877] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2524 operator()] no substitutions performed from file /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/perfis/P2S_04_PLA_3.json
+[2026-11-19 19:05:56.175906] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2815 run] loaded filament 3 from file /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/preparacao/perfis/P2S_04_PLA_3.json, type system, name Generic PLA @BBL P2S, inherits 
+[2026-11-19 19:05:56.175926] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:2911 run] map all the filaments to the same one, load_filament_count 3
+[2026-11-19 19:05:56.175950] [0x0000767be4dfbbc0] [warning] [BambuStudio.cpp:3155 run] can not find system preset file: /app/share/BambuStudio/profiles/BBL/machine_full/Bambu Lab P2S 0.4 nozzle.json 
+[2026-11-19 19:05:56.175982] [0x0000767be4dfbbc0] [warning] [BambuStudio.cpp:3177 run] can not find system preset file: /app/share/BambuStudio/profiles/BBL/process_full/Raposa Zumo P2S_04 PLA 3 cores.json 
+[2026-11-19 19:05:56.176004] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3195 run] current printer Bambu Lab P2S 0.4 nozzle, new printer Bambu Lab P2S 0.4 nozzle, current process Raposa Zumo P2S_04 PLA 3 cores, new process 0.16mm High Quality @BBL P2S
+[2026-11-19 19:05:56.176035] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3196 run] current printer inherits Bambu Lab P2S 0.4 nozzle, new printer inherits Bambu Lab P2S 0.4 nozzle, current process inherits Raposa Zumo P2S_04 PLA 3 cores, new process inherits 0.16mm High Quality @BBL P2S
+[2026-11-19 19:05:56.176054] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3199 run] index 0, current print compatible printer Bambu Lab X1 Carbon 0.6 nozzle
+[2026-11-19 19:05:56.176070] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3202 run] index 0, new print compatible printer Bambu Lab P2S 0.4 nozzle
+[2026-11-19 19:05:56.176086] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3205 run] index 0, upward_compatible_printers Bambu Lab A1 0.4 nozzle
+[2026-11-19 19:05:56.176105] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3205 run] index 1, upward_compatible_printers Bambu Lab H2S 0.4 nozzle
+[2026-11-19 19:05:56.176122] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3205 run] index 2, upward_compatible_printers Bambu Lab H2D 0.4 nozzle
+[2026-11-19 19:05:56.176138] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3205 run] index 3, upward_compatible_printers Bambu Lab H2D Pro 0.4 nozzle
+[2026-11-19 19:05:56.176154] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3205 run] index 4, upward_compatible_printers Bambu Lab H2C 0.4 nozzle
+[2026-11-19 19:05:56.176169] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3205 run] index 5, upward_compatible_printers Bambu Lab X2D 0.4 nozzle
+[2026-11-19 19:05:56.176185] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3205 run] index 6, upward_compatible_printers Bambu Lab A2L 0.4 nozzle
+[2026-11-19 19:05:56.176200] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3205 run] index 7, upward_compatible_printers Bambu Lab H3C 0.4 nozzle
+[2026-11-19 19:05:56.176227] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3215 run] new printer Bambu Lab P2S 0.4 nozzle, inherited from Bambu Lab P2S 0.4 nozzle, new process 0.16mm High Quality @BBL P2S, inherited from 0.16mm High Quality @BBL P2S ,compatible 1
+[2026-11-19 19:05:56.176259] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3625 run] update printer config to newest, different size 0, different_settings: 
+[2026-11-19 19:05:56.176306] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3530 operator()] update_full_config: config keys count 111
+[2026-11-19 19:05:56.176386] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3647 run] load a new printer, update all the keys, different_settings: 
+[2026-11-19 19:05:56.176405] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3763 run] update process config to newest, different size 0, different_settings: 
+[2026-11-19 19:05:56.176444] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3530 operator()] update_full_config: config keys count 206
+[2026-11-19 19:05:56.176562] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:3785 run] load a new process, update all the keys, different_settings: 
+[2026-11-19 19:05:56.176603] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:4016 run] update filament 1's config to newest, different size 0, name Generic PLA @BBL P2S, different_settings 
+[2026-11-19 19:05:56.176748] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:4016 run] update filament 2's config to newest, different size 0, name Generic PLA @BBL P2S, different_settings 
+[2026-11-19 19:05:56.176877] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:4016 run] update filament 3's config to newest, different size 0, name Generic PLA @BBL P2S, different_settings 
+[2026-11-19 19:05:56.176963] [0x0000767be4dfbbc0] [warning] [BambuStudio.cpp:4326 run] no filament colors found in projects
+[2026-11-19 19:05:56.176979] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:4334 run] total 1 models, 0 objects
+[2026-11-19 19:05:56.178096] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:4565 run] remove_wrapping_detect 0, old value 0
+[2026-11-19 19:05:56.178118] [0x0000767be4dfbbc0] [warning] [BambuStudio.cpp:4596 run] disable_wipe_tower_after_mapping: disable prime tower for only one filament!
+[2026-11-19 19:05:56.178243] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:4707 run] old printable size {256, 256, 256}, new printable size {256, 256, 256}, extract the same, no need shrink
+[2026-11-19 19:05:56.178265] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:4715 run] translate_old 0, shrink_to_new_bed 0, old bed size {256, 256, 256}
+[2026-11-19 19:05:56.178283] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:5229 reset_size] before size: plate_width 0, plate_depth 0, plate_height 0
+[2026-11-19 19:05:56.178300] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:5230 reset_size] after size: plate_width 256, plate_depth 256, plate_height 256
+[2026-11-19 19:05:56.178332] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:2659 set_pos_and_size] plate_id 0, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-11-19 19:05:56.178353] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:2661 set_pos_and_size] with_instance_move 0, after, origin {0,0,0}, plate_width 256, plate_depth 256, plate_height 256
+[2026-11-19 19:05:56.178372] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3859 update_slice_result_valid_state] plate 0 , update slice result from 0 to 0
+[2026-11-19 19:05:56.178394] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:2659 set_pos_and_size] plate_id 1, before, origin {0,0,0}, plate_width 0, plate_depth 0, plate_height 0
+[2026-11-19 19:05:56.178419] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:2661 set_pos_and_size] with_instance_move 0, after, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 256
+[2026-11-19 19:05:56.178439] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3859 update_slice_result_valid_state] plate 0 , update slice result from 0 to 0
+[2026-11-19 19:05:56.178472] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3859 update_slice_result_valid_state] plate 0 , update slice result from 0 to 0
+[2026-11-19 19:05:56.178489] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3859 update_slice_result_valid_state] plate 0 , update slice result from 0 to 0
+[2026-11-19 19:05:56.178534] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3859 update_slice_result_valid_state] plate 1 , update slice result from 0 to 0
+[2026-11-19 19:05:56.178551] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:8281 set_filament_count] filament_count=1
+[2026-11-19 19:05:56.178612] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:5796 update_plate_cols] m_plate_count 1, m_plate_cols change to 1
+[2026-11-19 19:05:56.178633] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:2659 set_pos_and_size] plate_id 0, before, origin {0,0,0}, plate_width 256, plate_depth 256, plate_height 256
+[2026-11-19 19:05:56.178656] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:2661 set_pos_and_size] with_instance_move 0, after, origin {0,0,0}, plate_width 256, plate_depth 256, plate_height 256
+[2026-11-19 19:05:56.178681] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:2659 set_pos_and_size] plate_id 1, before, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 256
+[2026-11-19 19:05:56.178705] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:2661 set_pos_and_size] with_instance_move 0, after, origin {307.2,0,0}, plate_width 256, plate_depth 256, plate_height 256
+[2026-11-19 19:05:56.178724] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3571 set_shape] PartPlate same shape, skip directly
+[2026-11-19 19:05:56.178749] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:7628 load_from_3mf_structure] plate 0, gcode_file , is_sliced_valid 0, toolpath_outside 0, is_support_used 0 is_label_object_enabled 0
+[2026-11-19 19:05:56.178773] [0x0000767be4dfbbc0] [warning] [MultiNozzleUtils.cpp:217 load_nozzle_infos_with_compatibility] building nozzle list from filament map and volume types
+[2026-11-19 19:05:56.178797] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3859 update_slice_result_valid_state] plate 0 , update slice result from 0 to 0
+[2026-11-19 19:05:56.178854] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3107 add_instance] plate 0 , m_ready_for_slice changes to 1
+[2026-11-19 19:05:56.178895] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3107 add_instance] plate 0 , m_ready_for_slice changes to 1
+[2026-11-19 19:05:56.178932] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3107 add_instance] plate 0 , m_ready_for_slice changes to 1
+[2026-11-19 19:05:56.178956] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3107 add_instance] plate 0 , m_ready_for_slice changes to 1
+[2026-11-19 19:05:56.178982] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3107 add_instance] plate 0 , m_ready_for_slice changes to 1
+[2026-11-19 19:05:56.179007] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3107 add_instance] plate 0 , m_ready_for_slice changes to 1
+[2026-11-19 19:05:56.179063] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:4820 operator()] plate 1, object bbox: min {40, 80.5, 0} - max {163, 159, 39}
+[2026-11-19 19:05:56.179080] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:4834 operator()] enable_prime_tower set to false
+[2026-11-19 19:05:56.179108] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:5060 run] plate 1,  has_wipe_tower 0, wipe_x 0, wipe_y 0, width 0, depth 0
+[2026-11-19 19:05:56.179133] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:5400 run] will start transforms, commands count 2
+[2026-11-19 19:05:56.179150] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:5409 run] process transform arrange
+[2026-11-19 19:05:56.179167] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:5409 run] process transform orient
+[2026-11-19 19:05:56.179183] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:5478 run] object Base 4 parafusos, id :5, no need to orient when setting orient to 0
+[2026-11-19 19:05:56.179198] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:5478 run] object Cabeca raposa 3 cores, id :9, no need to orient when setting orient to 0
+[2026-11-19 19:05:56.179211] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:5478 run] object Espacador 12 mm, id :13, no need to orient when setting orient to 0
+[2026-11-19 19:05:56.179228] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:5496 run] orient_option 0
+[2026-11-19 19:05:56.179242] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:5689 run] finished model pre-process commands
+[2026-11-19 19:05:56.179260] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:5771 run] before arrange, need_arrange=0, duplicate_count 0, filament_color_changed 0
+[2026-11-19 19:05:56.179298] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:7471 store_to_3mf_structure] plate 1 before load, width 0, height 0, size 0!
+[2026-11-19 19:05:56.179317] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:7474 store_to_3mf_structure] plate 1 after load, width 0, height 0, size 0!
+[2026-11-19 19:05:56.179347] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:7491 store_to_3mf_structure] plate 0, gcode_filename=, with_slice_info=1, slice_valid 0, object item count 6.
+[2026-11-19 19:05:56.179364] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:7568 store_to_3mf_structure] stored 1 plates!
+[2026-11-19 19:05:56.179389] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:8119 run] thumbnails stage: plate 1's thumbnail data is invalid, check the file  exist or not
+[2026-11-19 19:05:56.179406] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:8121 run] thumbnails stage: plate 1's thumbnail file also not there, need to regenerate
+[2026-11-19 19:05:56.179424] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:8150 run] thumbnails stage: plate 1's no_light_thumbnail_file  also not there, need to regenerate
+[2026-11-19 19:05:56.179441] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:8173 run] thumbnails stage: plate 1's top_file  also not there, need to regenerate
+[2026-11-19 19:05:56.179465] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:6661 operator()] opengl version 3.5.1
+[2026-11-19 19:05:56.193540] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:6671 operator()] glfwInit Success.
+[2026-11-19 19:05:56.193590] [0x0000767be4dfbbc0] [error]   [BambuStudio.cpp:681 glfw_callback] error_code 65540, description: Invalid OpenGL version 3.5
+[2026-11-19 19:05:56.193606] [0x0000767be4dfbbc0] [error]   [BambuStudio.cpp:6695 operator()] Failed to create GLFW window
+[2026-11-19 19:05:56.193650] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:8552 run] plate 1 doesn't have a valid sliced result, skip it
+[2026-11-19 19:05:56.193668] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:8703 run] will export 3mf to /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/P2S_04/Raposa_Zumo_P2S_04_3cores.3mf
+[2026-11-19 19:05:56.193700] [0x0000767be4dfbbc0] [info]    [PerfTrace.cpp:14 PerfTimer] [perf] write archive Raposa_Zumo_P2S_04_3cores.3mf begin
+[2026-11-19 19:05:56.193736] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:6849 _save_model_to_file] before open zip writer, m_skip_static 0, m_save_gcode 1, m_use_loaded_id 1
+[2026-11-19 19:05:56.193794] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:6877 _save_model_to_file] before add _add_content_types_file_to_archive
+[2026-11-19 19:05:56.193948] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:6891 _save_model_to_file] before add thumbnails, count 0
+[2026-11-19 19:05:56.193965] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:6892 _save_model_to_file] top&&pick thumbnails, count 0
+[2026-11-19 19:05:56.193977] [0x0000767be4dfbbc0] [info]    [PerfTrace.cpp:14 PerfTimer] [perf] 3mf: add thumbnails begin
+[2026-11-19 19:05:56.193990] [0x0000767be4dfbbc0] [info]    [PerfTrace.cpp:22 ~PerfTimer] [perf] 3mf: add thumbnails cost 0 ms
+[2026-11-19 19:05:56.194002] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7031 _save_model_to_file] before add calibration thumbnails, count 0
+[2026-11-19 19:05:56.194013] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7053 _save_model_to_file] before add calibration boundingbox, count 1
+[2026-11-19 19:05:56.194023] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7069 _save_model_to_file] before add models
+[2026-11-19 19:05:56.194033] [0x0000767be4dfbbc0] [info]    [PerfTrace.cpp:14 PerfTimer] [perf] 3mf: add model and meshes begin
+[2026-11-19 19:05:56.194048] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7560 _add_model_file_to_archive] filename Raposa_Zumo_P2S_04_3cores.3mf.tmp, m_split_model 1,  sub_model 0
+[2026-11-19 19:05:56.194142] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= Application, value = BambuStudio-02.09.01.70
+[2026-11-19 19:05:56.194157] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-11-19 19:05:56.194167] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= Copyright, value = 
+[2026-11-19 19:05:56.194177] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= CreationDate, value = 2026-11-19
+[2026-11-19 19:05:56.194188] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= Description, value = 
+[2026-11-19 19:05:56.194198] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= Designer, value = 
+[2026-11-19 19:05:56.194208] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= DesignerCover, value = 
+[2026-11-19 19:05:56.194218] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= DesignerUserId, value = 
+[2026-11-19 19:05:56.194228] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= License, value = 
+[2026-11-19 19:05:56.194238] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= ModificationDate, value = 2026-11-19
+[2026-11-19 19:05:56.194248] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= Origin, value = 
+[2026-11-19 19:05:56.194258] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= ProfileCover, value = 
+[2026-11-19 19:05:56.194267] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= ProfileDescription, value = 
+[2026-11-19 19:05:56.194277] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= ProfileTitle, value = 
+[2026-11-19 19:05:56.194295] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= Title, value = Raposa Zumo v2 - PLA vermelho branco preto
+[2026-11-19 19:05:56.194603] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7560 _add_model_file_to_archive] filename object_1.model, m_split_model 1,  sub_model 1
+[2026-11-19 19:05:56.194629] [0x0000767be3efa6c0] [info]    [bbs_3mf.cpp:7560 _add_model_file_to_archive] filename object_2.model, m_split_model 1,  sub_model 1
+[2026-11-19 19:05:56.194655] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-11-19 19:05:56.194685] [0x0000767be22f36c0] [info]    [bbs_3mf.cpp:7560 _add_model_file_to_archive] filename object_3.model, m_split_model 1,  sub_model 1
+[2026-11-19 19:05:56.194743] [0x0000767be3efa6c0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-11-19 19:05:56.194827] [0x0000767be22f36c0] [info]    [bbs_3mf.cpp:7700 _add_model_file_to_archive] bbs_3mf: save key= BambuStudio:3mfVersion, value = 1
+[2026-11-19 19:05:56.205344] [0x0000767be4dfbbc0] [info]    [PerfTrace.cpp:22 ~PerfTimer] [perf] 3mf: add model and meshes cost 11 ms
+[2026-11-19 19:05:56.205359] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7132 _save_model_to_file] before add custom gcodes
+[2026-11-19 19:05:56.205374] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7143 _save_model_to_file] before add project_settings
+[2026-11-19 19:05:56.206701] [0x0000767be4dfbbc0] [info]    [Config.cpp:1635 save_to_json] saved config to _temp_1.config
+[2026-11-19 19:05:56.208411] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7333 _add_file_to_archive] add file _temp_1.config to archive Metadata/project_settings.config
+[2026-11-19 19:05:56.208491] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7158 _save_model_to_file] before add project embedded settings
+[2026-11-19 19:05:56.208503] [0x0000767be4dfbbc0] [info]    [PerfTrace.cpp:14 PerfTimer] [perf] 3mf: add model config begin
+[2026-11-19 19:05:56.208721] [0x0000767be4dfbbc0] [info]    [PerfTrace.cpp:22 ~PerfTimer] [perf] 3mf: add model config cost 0 ms
+[2026-11-19 19:05:56.208791] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7233 _save_model_to_file] before add sliced info to 3mf
+[2026-11-19 19:05:56.208803] [0x0000767be4dfbbc0] [info]    [PerfTrace.cpp:14 PerfTimer] [perf] 3mf: add slice info begin
+[2026-11-19 19:05:56.208836] [0x0000767be4dfbbc0] [info]    [PerfTrace.cpp:22 ~PerfTimer] [perf] 3mf: add slice info cost 0 ms
+[2026-11-19 19:05:56.208878] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7265 _save_model_to_file] before add auxiliary dir to 3mf
+[2026-11-19 19:05:56.208899] [0x0000767be4dfbbc0] [info]    [Model.cpp:1209 get_backup_path] create missing sub_pathAuxiliaries
+[2026-11-19 19:05:56.208925] [0x0000767be4dfbbc0] [info]    [PerfTrace.cpp:14 PerfTimer] [perf] 3mf: add auxiliaries begin
+[2026-11-19 19:05:56.208951] [0x0000767be4dfbbc0] [info]    [PerfTrace.cpp:22 ~PerfTimer] [perf] 3mf: add auxiliaries cost 0 ms
+[2026-11-19 19:05:56.208960] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7278 _save_model_to_file] before add relation file to 3mf
+[2026-11-19 19:05:56.208995] [0x0000767be4dfbbc0] [info]    [PerfTrace.cpp:14 PerfTimer] [perf] 3mf: finalize archive begin
+[2026-11-19 19:05:56.209019] [0x0000767be4dfbbc0] [info]    [PerfTrace.cpp:22 ~PerfTimer] [perf] 3mf: finalize archive cost 0 ms
+[2026-11-19 19:05:56.209027] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:7304 _save_model_to_file] finished exporting 3mf
+[2026-11-19 19:05:56.209085] [0x0000767be4dfbbc0] [info]    [PerfTrace.cpp:22 ~PerfTimer] [perf] write archive Raposa_Zumo_P2S_04_3cores.3mf cost 15 ms
+[2026-11-19 19:05:56.209096] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:9071 export_project] Project exported to /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/P2S_04/Raposa_Zumo_P2S_04_3cores.3mf
+[2026-11-19 19:05:56.209107] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:419 stop] enter.
+[2026-11-19 19:05:56.209121] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:423 stop] not started before, return directly.
+[2026-11-19 19:05:56.209129] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:8828 run] Finished
+[2026-11-19 19:05:56.209228] [0x0000767be4dfbbc0] [info]    [BambuStudio.cpp:639 record_exit_reson] saved config to /home/daniel/workspace/Speach2Pico/modelos/raposa_zumo/fatiados_3cores/P2S_04/result.json
+[2026-11-19 19:05:56.209255] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3859 update_slice_result_valid_state] plate 0 , update slice result from 0 to 0
+[2026-11-19 19:05:56.209265] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3859 update_slice_result_valid_state] plate 0 , update slice result from 0 to 0
+[2026-11-19 19:05:56.209294] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3859 update_slice_result_valid_state] plate 1 , update slice result from 0 to 0
+[2026-11-19 19:05:56.209307] [0x0000767be4dfbbc0] [info]    [PartPlate.cpp:3859 update_slice_result_valid_state] plate 1 , update slice result from 0 to 0
+[2026-11-19 19:05:56.209449] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:9795 _BBS_Backup_Manager] inital and interval = 60
+[2026-11-19 19:05:56.209552] [0x0000767be4dfbbc0] [info]    [bbs_3mf.cpp:9685 remove_backup] 19_05_56#2#3, true
+[2026-11-19 19:05:56.209609] [0x0000767be17ee6c0] [info]    [bbs_3mf.cpp:9891 process_task] { type:RemoveBackup, id:3, path:19_05_56#2#3, object:0, extra:1}

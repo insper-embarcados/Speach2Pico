@@ -1,0 +1,14 @@
+{
+  "mode": "motors_stopped",
+  "duration_requested_s": 15.0,
+  "protocol": "POLOLU_CONTROL_V1",
+  "acknowledged": 66,
+  "median_ms": 154.7,
+  "p95_ms": 251.3,
+  "max_ms": 287.7,
+  "over_500ms": 0,
+  "date": "2026-11-18",
+  "port": "/dev/rfcomm0",
+  "baudrate": 115200,
+  "note": "Medicao real no laptop com receptor V1 e comandos STOP. Nao testa interferencia dos motores nem garante ausencia de defeito fisico."
+}

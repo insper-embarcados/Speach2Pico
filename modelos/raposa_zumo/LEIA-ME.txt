@@ -1,0 +1,43 @@
+CABEÇA DE RAPOSA PARA O ZUMO — 40 MM
+
+Modelo original estilizado, inspirado na raposa vermelha, branca e preta do
+Insper. Não é uma reprodução exata do mascote.
+
+DIMENSÕES
+Largura 40 mm; profundidade 30 mm; altura 40 mm, incluindo a base.
+Base plana de 20 x 14 mm, com cantos chanfrados. Frente: direção -Y; cima: +Z.
+
+ARQUIVOS
+- raposa_zumo_40mm.stl: peça única, sem cores, para abrir no fatiador.
+- raposa_zumo_40mm_cores.3mf: geometria dividida em vermelho, branco e preto.
+  É um modelo 3MF, sem configuração de impressora ou filamentos. Dependendo do
+  fatiador, atribua manualmente as três cores aos volumes e mantenha o conjunto
+  montado, sem reorganizar ou assentar cada volume separadamente.
+- raposa_zumo.scad: fonte OpenSCAD; altere "largura" para redimensionar.
+- previa_raposa.png: vistas da geometria real, com sugestão de acabamento.
+- verificacao.json: resultados da verificação geométrica.
+- gerar_raposa.py: fonte de construção e exportação. Requer Python, trimesh,
+  manifold3d, numpy, scipy, matplotlib, networkx e lxml. Executar sem argumentos gera 40 mm.
+
+IMPRESSÃO — PONTO DE PARTIDA A CONFIRMAR NO FATIADOR
+Base plana apoiada na mesa; não assentar a cabeça pelo rosto.
+Para bico de 0,4 mm: considerar camada de 0,16 mm, 3 paredes e 12–15% de
+preenchimento. Avaliar suportes sob focinho e bochechas na prévia de camadas.
+Detalhes dos olhos são pequenos: confira sua formação antes de imprimir.
+Pode imprimir numa só cor e pintar bochechas/interior das orelhas de branco e
+nariz/olhos de preto. O STL não contém informação de cor.
+Não foram feitos fatiamento ou teste físico.
+
+FIXAÇÃO
+A base foi pensada para fita dupla face removível sobre uma superfície plana
+adequada do robô ou de um suporte. Não há encaixe específico nem furação.
+Antes de colar, confira espaço e acesso ao display, botões, conexão USB e
+sensores; não cole diretamente em componentes eletrônicos. A posição e a
+aderência no Zumo 2040 ainda precisam ser verificadas no robô real.
+
+VERIFICAÇÃO
+O STL exportado foi reaberto: malha fechada, orientação consistente,
+um componente conectado, dimensões 40 x 30 x 40 mm.
+Os três volumes coloridos também são fechados; a soma dos volumes coincide
+com a peça única dentro da tolerância numérica. Isso verifica a geometria,
+não a qualidade de impressão nem a compatibilidade física da montagem.

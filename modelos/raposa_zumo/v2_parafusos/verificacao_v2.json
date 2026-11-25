@@ -1,0 +1,249 @@
+{
+  "revision": "v2-2026-11-19",
+  "files": {
+    "base_4_parafusos.stl": {
+      "bounds_mm": [
+        [
+          -32.0,
+          -4.5,
+          0.0
+        ],
+        [
+          32.0,
+          67.5,
+          6.199999809265137
+        ]
+      ],
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 4666.389506212911
+    },
+    "cabeca_raposa_encaixe.stl": {
+      "bounds_mm": [
+        [
+          -20.0,
+          -20.0,
+          0.0
+        ],
+        [
+          20.0,
+          10.0,
+          39.0
+        ]
+      ],
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 13971.553309183497
+    },
+    "espacador_12mm_imprimir_4.stl": {
+      "bounds_mm": [
+        [
+          -3.0,
+          -3.0,
+          0.0
+        ],
+        [
+          3.0,
+          3.0,
+          12.0
+        ]
+      ],
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 275.1380411550883
+    },
+    "teste_furos_encaixe.stl": {
+      "bounds_mm": [
+        [
+          -20.0,
+          -7.0,
+          0.0
+        ],
+        [
+          36.0,
+          7.0,
+          4.800000190734863
+        ]
+      ],
+      "watertight": true,
+      "components": 2,
+      "volume_mm3": 2760.291921478261
+    },
+    "gabarito_furacao_08mm.stl": {
+      "bounds_mm": [
+        [
+          -32.0,
+          -4.5,
+          0.0
+        ],
+        [
+          32.0,
+          67.5,
+          0.800000011920929
+        ]
+      ],
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 1131.422379223516
+    },
+    "calco_0p2mm.stl": {
+      "bounds_mm": [
+        [
+          -3.0,
+          -3.0,
+          0.0
+        ],
+        [
+          3.0,
+          3.0,
+          0.20000000298023224
+        ]
+      ],
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 4.5856340875827435
+    },
+    "calco_0p4mm.stl": {
+      "bounds_mm": [
+        [
+          -3.0,
+          -3.0,
+          0.0
+        ],
+        [
+          3.0,
+          3.0,
+          0.4000000059604645
+        ]
+      ],
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 9.171268175165487
+    },
+    "calco_0p6mm.stl": {
+      "bounds_mm": [
+        [
+          -3.0,
+          -3.0,
+          0.0
+        ],
+        [
+          3.0,
+          3.0,
+          0.6000000238418579
+        ]
+      ],
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 13.756902604404592
+    },
+    "calco_0p8mm.stl": {
+      "bounds_mm": [
+        [
+          -3.0,
+          -3.0,
+          0.0
+        ],
+        [
+          3.0,
+          3.0,
+          0.800000011920929
+        ]
+      ],
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 18.342536350330974
+    },
+    "calco_1p0mm.stl": {
+      "bounds_mm": [
+        [
+          -3.0,
+          -3.0,
+          0.0
+        ],
+        [
+          3.0,
+          3.0,
+          1.0
+        ]
+      ],
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 22.92817009625736
+    },
+    "calco_1p2mm.stl": {
+      "bounds_mm": [
+        [
+          -3.0,
+          -3.0,
+          0.0
+        ],
+        [
+          3.0,
+          3.0,
+          1.2000000476837158
+        ]
+      ],
+      "watertight": true,
+      "components": 1,
+      "volume_mm3": 27.513805208809185
+    }
+  },
+  "holes_xy_mm": [
+    [
+      -25.0,
+      0.0
+    ],
+    [
+      25.0,
+      0.0
+    ],
+    [
+      -27.5,
+      63.0
+    ],
+    [
+      27.5,
+      63.0
+    ]
+  ],
+  "source_dimensions": {
+    "board_pdf": "../../../docs/zumo-2040-main-board-dimensions.pdf",
+    "robot_pdf": "../../../docs/zumo-2040-robot-dimensions.pdf",
+    "front_hole_spacing": 50.0,
+    "rear_hole_spacing": 55.0,
+    "row_spacing": 63.0,
+    "pcb_front_y": -6.3,
+    "pcb_rear_y": 76.5,
+    "oled_envelope": [
+      -17.7,
+      17.7,
+      20.0,
+      53.5,
+      9.8
+    ],
+    "derivation": "Frente: 66-2*8=50. Tras: 66-2*5.5=55. Fileiras: 82.8-6.3-13.5=63. OLED: Y=26.3-6.3=20, comprimento33.5, largura35.4."
+  },
+  "hole_diameter_mm": 2.6,
+  "head_socket_mm": [
+    8.4,
+    6.4,
+    3.4
+  ],
+  "plate_underface_above_level_seats_mm": 12.0,
+  "head_top_above_level_seats_mm": 54.2,
+  "sliced": false,
+  "physical_fit_tested": false,
+  "blade_thickness_verified": false,
+  "oled_volume_intersection_mm3": 0,
+  "oled_vista_vertical_intersection_mm3": 0,
+  "peg_head_interference_mm3": 0.0,
+  "screwdriver_clearance_diameter_mm": 7,
+  "gap_fox_to_oled_y_mm": 2.0,
+  "three_mf_geometry_count": 5,
+  "three_mf_mesh_instances": 8,
+  "source_sha256": {
+    "zumo-2040-main-board-dimensions.pdf": "d4aaf134550d7920c972f36e9c2518846e553156c093458cf8d264bf64be9143",
+    "zumo-2040-robot-dimensions.pdf": "4eb75021f81c4f35f9b43bf418042eb398be11f01d5b40902fa248a11074b0e0"
+  }
+}
